@@ -1,0 +1,38 @@
+button{
+    padding: 1em;
+    background-color: blueviolet
+    border: solid 3px blue;
+    border-radius: 50px; 
+}
+
+button:hover{
+    border-radius: 0px; 
+}
+
+#p5sketch{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+#trigger{
+    position: fixed;
+    left: 0px; 
+}
+
+#release{
+    position: fixed;
+    right: 0px; 
+}
+
+.container{
+    position: fixed;
+    width: 65%;
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
