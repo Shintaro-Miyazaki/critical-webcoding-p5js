@@ -11,8 +11,8 @@ the folders with a browser.
 
  
 
-mouse_tracker simple
-====================
+001 mouse_tracker simple
+========================
 
 Mouse tracking starts upon clicking on „rec“ and is stopped/revealed when
 clicking on „play“. The key code is on sketch.js, which is inside the folder
@@ -21,3 +21,8 @@ interface with HTML and XML documents. A DOM is an object-oriented
 representation (a model) of the web page, which can be modified with a scripting
 language such as JavaScript. Here the DOM principle is used to access the
 buttons.
+
+002 mouse_tracker unload
+========================
+
+Same thing as 001, but with tracking enable already after webpage is loaded.
