@@ -2,14 +2,15 @@ let cnv;
 let dataCollection = false;
 let showCollectedData = false;
 let mousePos = {};
+let data = []; // array to store mouse position data
 
-let data = [];
 function setup() {
     cnv = createCanvas(innerWidth, innerHeight);
     cnv.parent('p5sketch') // take canvas and link to div element p5sketch
     // console.log(data);
     // data.push(10); // daten eingeben
 }
+
 function draw() {
     background(0, 255, 255);
     if (dataCollection == true) {
@@ -52,7 +53,7 @@ function triggerFunction(event) {
     dataCollection = true;
 }
 
-const release = document.getElementById('release'); //speichert Element als variable.
+let release = document.getElementById('release'); //speichert Element als variable.
 console.log(release);
 release.addEventListener('click', releaseFunction);
 
