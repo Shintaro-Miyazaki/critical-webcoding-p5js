@@ -6,8 +6,8 @@ A collection of exercises from a
 ) directed by [Yann Martins](https://github.com/Yyyyaaaannnnoooo) and me in
 Autumn/Winter 2018 as a preparation for upcoming courses.
 
-To test the project download the project and open index.html files inside the
-folders with a browser.
+To test the project download the repository and open the index.html files inside
+the folders with a browser.
 
  
 
